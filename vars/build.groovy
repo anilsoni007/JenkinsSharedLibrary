@@ -1,3 +1,5 @@
+// here we are passing various stage names to execute the maven goal
+
 def call(String mavenGoal){
   
   if ("${mavenGoal}" == "Clean")
