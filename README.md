@@ -7,4 +7,7 @@ clone the repository code using
 
 ###### Step 2
 Configure the jenkins 
-go to jenkins Dashboard -> manage jenkins -> global pipeline
+go to 
+```
+jenkins Dashboard -> manage jenkins -> configure system -> Global Pipeline Libraries
+```
