@@ -11,3 +11,8 @@ go to
 ```
 jenkins Dashboard -> manage jenkins -> configure system -> Global Pipeline Libraries
 ```
+Define the jenkins shared library name and mention git hub repo in the jenkins
+
+###### Step 3
+to access the shared library in `Jenkinsfile` you need to add @Library annotation.
+`@Library('AnilShared_lib') _ `
